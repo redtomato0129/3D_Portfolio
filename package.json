@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm install --legacy-peer-deps && npm run dev",
     "preview": "vite preview"
   },
   "dependencies": {
