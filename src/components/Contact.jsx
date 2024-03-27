@@ -33,10 +33,9 @@ const Contact = () => {
           form_name: form.name,
           to_name: "Liron",
           from_email: form.email,
-          to_email: "contact@mail.com",
+          to_email: "superman030129@gmail.com",
           message: form.message,
         },
-        "Jqq9AvwIuSjoMiA5c"
       )
       .then(
         () => {
@@ -68,8 +67,7 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
-        snow1022127@gmail.com<br/>
-        whitesnow1022127@gmail.com
+        superman030129@gmail.com<br/>
         <form
           ref={formRef}
           onSubmit={handleSubmit}

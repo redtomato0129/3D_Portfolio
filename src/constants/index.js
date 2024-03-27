@@ -18,11 +18,14 @@ import {
   meta,
   starbucks,
   tesla,
+  netguru,
+  asseco,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  nextjs,
 } from "../assets";
 
 export const navLinks = [
@@ -42,20 +45,12 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
     title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
+    icon: web,
   },
 ];
 
@@ -79,6 +74,10 @@ const technologies = [
   {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "Next JS",
+    icon: nextjs,
   },
   {
     name: "Redux Toolkit",
@@ -116,55 +115,34 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Frontend Developer",
+    company_name: "Netguru",
+    icon: netguru,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2018 - April 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "Proficiency in modern JavaScript (ES6+), including concepts like asynchronous programming, closures, and ES6+ features such as classes, modules, and arrow functions",
+      "Understanding of HTML and CSS is essential as it forms the foundation of web content to which your 3D work will be presented",
+      "A firm grasp of 3D mathematics, including linear algebra (vectors, matrices, etc.), geometry, and trigonometry",
+      "Understanding of WebGL, which is the browser's low-level interface for rendering 2D and 3D graphics",
+      "Develop with React Three Fiber for React renderer for Three.js",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Backend Developer",
+    company_name: "Asseco",
+    icon: asseco,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "June 2022 - December 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Proficiency in backend programming languages such as Django or Flask for Python, Express.js for Node.js, Laravel of PHP",
+      "Design of database technologies, including MySQL, MongoDB, PostgreSQL, SQL Server",
+      "Experience with creating and managing RESTful or GraphQL APIs",
+      "Basic understanding of server management including configuration, deployment, and maintenance. Knowledge of cloud services (AWS, Azure, GCP) is often essential.",
     ],
   },
 ];
