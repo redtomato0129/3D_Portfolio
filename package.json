@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm install --legacy-peer-deps && npm run dev",
-    "preview": "vite preview"
+    "build": "vite build",
+    "serve": "vite preview",
+    "install": "npm install --legacy-peer-deps"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
