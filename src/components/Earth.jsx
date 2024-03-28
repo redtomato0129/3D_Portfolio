@@ -277,8 +277,6 @@ const Earth = () => {
       default:
         break;
     }
-    console.log(index)
-
   }
 
   useEffect(() => {
