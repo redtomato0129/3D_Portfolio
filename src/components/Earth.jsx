@@ -20,7 +20,7 @@ const table = [
   'Django', 'imgs/django.svg', '10.811', 2, 5,
 
   'Express', 'imgs/express.svg', '1.00794', 3, 1,
-  'Flutter', 'imgs/flutter.svg', '4.002602', 3, 2,
+  'Solidity', 'imgs/solidity.svg', '4.002602', 3, 2,
   'GraphQL', 'imgs/graphql.svg', '6.941', 3, 3,
   'jQuery', 'imgs/jquery.svg', '9.012182', 3, 4,
   'Laravel', 'imgs/laravel.svg', '10.811', 3, 5,
