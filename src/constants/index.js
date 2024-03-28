@@ -22,7 +22,7 @@ import {
   asseco,
   shopify,
   carrent,
-  appointment, photoedit, sessionly, facial,
+  appointment, photoedit, sessionly, facial, lemoon,
   jobit,
   tripguide,
   threejs,
@@ -300,6 +300,27 @@ const projects = [
     ],
     image: facial,
     source_code_link: "https://www.facel.search.com/",
+  },
+  {
+    name: "Facial Search",
+    description:
+      "Our website is our country site for statistical, advertising and functional purposes. This homepage was created using modern languages and frameworks, including React. In particular, we designed the homepage using three modules to create a very unique website.",
+    tags: [
+      {
+        name: "React",
+        color: "react-text-gradient",
+      },
+      {
+        name: "Three.js",
+        color: "threejs-text-gradient",
+      },
+      {
+        name: "Tailwind css",
+        color: "tailwindcss-text-gradient",
+      },
+    ],
+    image: lemoon,
+    source_code_link: "https://lemoon-web.pl",
   },
 ];
 

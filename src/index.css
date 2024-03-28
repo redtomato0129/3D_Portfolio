@@ -186,6 +186,12 @@
   background-clip: text;
   color: transparent;
 }
+.threejs-text-gradient {
+  background: #82857b;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
 
 
 /*----------------------------------------------------------------------*/

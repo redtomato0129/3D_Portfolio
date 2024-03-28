@@ -36,6 +36,7 @@ import photoedit from "./work/photoedit.png";
 import appointment from "./work/appointment.png";
 import sessionly from "./work/sessionly.png";
 import facial from "./work/facial.png";
+import lemoon from "./work/lemoon.png";
 
 export {
   logo,
@@ -69,5 +70,5 @@ export {
   tripguide,
   netguru,
   asseco,
-  photoedit, appointment, sessionly, facial,
+  photoedit, appointment, sessionly, facial, lemoon,
 };
