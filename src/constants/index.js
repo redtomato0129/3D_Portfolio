@@ -186,7 +186,7 @@ const projects = [
       "This is a web app that can be used for editing photos. This app contains some basics photo editing feature.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "react-text-gradient",
       },
       {
@@ -297,12 +297,20 @@ const projects = [
         name: "Tailwind css",
         color: "tailwindcss-text-gradient",
       },
+      {
+        name: "Django",
+        color: "django-text-gradient",
+      },
+      {
+        name: "OpenAI",
+        color: "openai-text-gradient",
+      },
     ],
     image: facial,
     source_code_link: "https://www.facel.search.com/",
   },
   {
-    name: "Facial Search",
+    name: "Lemoon Site",
     description:
       "Our website is our country site for statistical, advertising and functional purposes. This homepage was created using modern languages and frameworks, including React. In particular, we designed the homepage using three modules to create a very unique website.",
     tags: [
@@ -317,6 +325,18 @@ const projects = [
       {
         name: "Tailwind css",
         color: "tailwindcss-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "express-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "mongodb-text-gradient",
+      },
+      {
+        name: "GraphQL",
+        color: "graphql-text-gradient",
       },
     ],
     image: lemoon,

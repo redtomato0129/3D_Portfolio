@@ -186,8 +186,37 @@
   background-clip: text;
   color: transparent;
 }
+
 .threejs-text-gradient {
   background: #82857b;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.mongodb-text-gradient {
+  background: #f8d408;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.express-text-gradient {
+  background: #e77122;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.django-text-gradient {
+  background: #0099ff;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.openai-text-gradient {
+  background: #0804e7;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
