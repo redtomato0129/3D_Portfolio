@@ -29,9 +29,13 @@ import tesla from "./company/tesla.png";
 import netguru from "./company/netguru.png";
 import asseco from "./company/asseco.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import carrent from "./work/carrent.png";
+import jobit from "./work/jobit.png";
+import tripguide from "./work/tripguide.png";
+import photoedit from "./work/photoedit.png";
+import appointment from "./work/appointment.png";
+import sessionly from "./work/sessionly.png";
+import facial from "./work/facial.png";
 
 export {
   logo,
@@ -64,5 +68,6 @@ export {
   jobit,
   tripguide,
   netguru,
-  asseco
+  asseco,
+  photoedit, appointment, sessionly, facial,
 };

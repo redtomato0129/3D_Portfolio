@@ -22,6 +22,7 @@ import {
   asseco,
   shopify,
   carrent,
+  appointment, photoedit, sessionly, facial,
   jobit,
   tripguide,
   threejs,
@@ -180,67 +181,125 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Photo Editor",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This is a web app that can be used for editing photos. This app contains some basics photo editing feature.",
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
+        color: "react-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "HTML5",
+        color: "html5-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "CSS3",
+        color: "css3-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: photoedit,
+    source_code_link: "https://photo-editor-30.netlify.app",
   },
   {
-    name: "Job IT",
+    name: "SessionLy",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This Project was built using Next.js and Tailwind CSS, RestAPI. This homepage has a clean and neat interface. At my level, a website like this would only take 2 days...",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "TypeScript",
+        color: "typescript-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "next-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "tailwindcss-text-gradient",
       },
       {
         name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
+        color: "restapi-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: sessionly,
+    source_code_link: "https://dev.sessionly.co/",
   },
   {
-    name: "Trip Guide",
+    name: "Appointment Scheduling Software",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Probooking is a site that supports a business communication platform that allows teams to schedule, prepare, and follow up on external meetings.",
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
+        name: "Laravel",
+        color: "laravel-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
+        name: "PHP",
+        color: "php-text-gradient",
       },
       {
-        name: "css",
+        name: "CSS 3",
+        color: "css3-text-gradient",
+      },
+    ],
+    image: appointment,
+    source_code_link: "https://www.getprobooking.com/",
+  },
+  {
+    name: "Sale HomePage",
+    description:
+      "Saleor Storefront built with React 18, Next.js 14, App Router, TypeScript, GraphQL, and Tailwind CSS. Starter pack for building performant e-commerce experiences with Saleor. This is developed by Team",
+    tags: [
+      {
+        name: "Next.js",
+        color: "next-text-gradient",
+      },
+      {
+        name: "React",
+        color: "react-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "typescript-text-gradient",
+      },
+      {
+        name: "Graphql",
+        color: "graphql-text-gradient",
+      },
+      {
+        name: "Tailwind css",
+        color: "tailwindcss-text-gradient",
+      },
+      {
+        name: "Cart",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: appointment,
+    source_code_link: "https://storefront.saleor.io",
+  },
+  {
+    name: "Facial Search",
+    description:
+      "This site is a site where you can search for a list of photos that contain your photo. This involved facial recognition algorithms and some development of React, TypeScript, Tailwind CSS, and Javascript. The default is image recognition.",
+    tags: [
+      {
+        name: "React",
+        color: "react-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "typescript-text-gradient",
+      },
+      {
+        name: "Tailwind css",
+        color: "tailwindcss-text-gradient",
+      },
+    ],
+    image: facial,
+    source_code_link: "https://www.facel.search.com/",
   },
 ];
 

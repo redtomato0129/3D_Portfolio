@@ -114,6 +114,82 @@
   -webkit-text-fill-color: transparent;
 }
 
+
+/*----------------------------------------------------------------------*/
+
+.react-text-gradient {
+  background: #ec008c;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.next-text-gradient {
+  background: #1bffff;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.typescript-text-gradient {
+  background: #51f70f;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.html5-text-gradient {
+  background: #f12711;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.css3-text-gradient {
+  background: #11998e;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.restapi-text-gradient {
+  background: #9315b3;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.tailwindcss-text-gradient {
+  background: #b96506;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.php-text-gradient {
+  background: #0b638b;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.laravel-text-gradient {
+  background: #71df0b;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.graphql-text-gradient {
+  background: #fcfdfc;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+
+/*----------------------------------------------------------------------*/
+
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;
