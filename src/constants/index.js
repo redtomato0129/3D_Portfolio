@@ -121,10 +121,10 @@ const technologies = [
 const experiences = [
   {
     title: "Frontend Developer",
-    company_name: "Netguru",
-    icon: netguru,
+    company_name: "",
+    icon: javascript,
     iconBg: "#383E56",
-    date: "March 2018 - April 2022",
+    date: "",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -139,10 +139,10 @@ const experiences = [
   },
   {
     title: "Backend Developer",
-    company_name: "Asseco",
-    icon: asseco,
+    company_name: "",
+    icon: nodejs,
     iconBg: "#E6DEDD",
-    date: "June 2022 - December 2023",
+    date: "",
     points: [
       "Proficiency in backend programming languages such as Django or Flask for Python, Express.js for Node.js, Laravel of PHP",
       "Design of database technologies, including MySQL, MongoDB, PostgreSQL, SQL Server",
