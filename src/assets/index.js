@@ -21,6 +21,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import openai from "./tech/openai.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -37,6 +38,11 @@ import appointment from "./work/appointment.png";
 import sessionly from "./work/sessionly.png";
 import facial from "./work/facial.png";
 import lemoon from "./work/lemoon.png";
+import azbit from "./work/azbit.png";
+import dsaeditor from "./work/dsaeditor.png";
+import formbuilder from "./work/formbuilder.png";
+import reup from "./work/reup.png";
+import aichat from "./work/aichat.png";
 
 export {
   logo,
@@ -70,5 +76,6 @@ export {
   tripguide,
   netguru,
   asseco,
-  photoedit, appointment, sessionly, facial, lemoon,
+  openai,
+  photoedit, appointment, sessionly, facial, lemoon, azbit, dsaeditor, formbuilder, reup, aichat
 };

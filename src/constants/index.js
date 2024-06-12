@@ -22,11 +22,12 @@ import {
   asseco,
   shopify,
   carrent,
-  appointment, photoedit, sessionly, facial, lemoon,
+  appointment, photoedit, sessionly, facial, lemoon, azbit, dsaeditor, formbuilder, reup, aichat,
   jobit,
   tripguide,
   threejs,
   nextjs,
+  openai,
 } from "../assets";
 
 export const navLinks = [
@@ -126,15 +127,12 @@ const experiences = [
     iconBg: "#383E56",
     date: "",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-      "Proficiency in modern JavaScript (ES6+), including concepts like asynchronous programming, closures, and ES6+ features such as classes, modules, and arrow functions",
-      "Understanding of HTML and CSS is essential as it forms the foundation of web content to which your 3D work will be presented",
-      "A firm grasp of 3D mathematics, including linear algebra (vectors, matrices, etc.), geometry, and trigonometry",
-      "Understanding of WebGL, which is the browser's low-level interface for rendering 2D and 3D graphics",
-      "Develop with React Three Fiber for React renderer for Three.js",
+      "Specializing in frameworks including React, Next.js, Vue.js and Svelte.",
+      "Familiarity with preprocessors like SASS or LESS can streamline and enhance CSS coding.",
+      "Responsive web design principles to ensure websites work well on various devices.",
+      "Clean and perfect face-to-face production using Tailwind CSS, Material UI, Bootstrap.",
+      "Techniques to reduce load times and improve the performance of websites.",
+      "Proficiency with developer tools provided by modern browsers to debug and optimize web pages.",
     ],
   },
   {
@@ -144,10 +142,50 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "",
     points: [
-      "Proficiency in backend programming languages such as Django or Flask for Python, Express.js for Node.js, Laravel of PHP",
-      "Design of database technologies, including MySQL, MongoDB, PostgreSQL, SQL Server",
+      "Node.js(Express.js), Electron",
+      "Python: Python Script, Django, Flask, FastAPI",
+      "PHP: Laravel, CodeIgniter",
       "Experience with creating and managing RESTful or GraphQL APIs",
       "Basic understanding of server management including configuration, deployment, and maintenance. Knowledge of cloud services (AWS, Azure, GCP) is often essential.",
+    ],
+  },
+  {
+    title: "AI Developer",
+    company_name: "",
+    icon: openai,
+    iconBg: "#E6DEDD",
+    date: "",
+    points: [
+      "Knowledge of how to integrate and use OpenAI’s API for various AI applications.",
+      "AWS, Google Cloud Platform, Microsoft Azure for deploying and scaling AI models.",
+      "Familiarity with services like AWS SageMaker, Google AI Platform.",
+      "Staying updated with the latest research and trends in AI.",
+    ],
+  },
+  {
+    title: "ServerLess Developer",
+    company_name: "",
+    icon: web,
+    iconBg: "#E6DEDD",
+    date: "",
+    points: [
+      "Serverless development using Supabase and FireBase.",
+      "Open-source framework for building serverless applications.",
+      "Simplifies deployment and management of Node.js projects in AWS Lambda and API Gateway.",
+      "For developing, testing, and deploying Azure Functions.",
+    ],
+  },
+  {
+    title: "Database Developer",
+    company_name: "",
+    icon: mongodb,
+    iconBg: "#E6DEDD",
+    date: "",
+    points: [
+      "Relational Databases: Proficiency with databases such as MySQL, PostgreSQL, Oracle, Microsoft SQL Server.",
+      "NoSQL Databases: Familiarity with databases like MongoDB, Cassandra, Redis for handling unstructured data.",
+      "Database Design: Schema design, indexing, and query optimization.",
+      "In-Memory Databases: Knowledge of databases like Redis or Memcached for high-performance applications.",
     ],
   },
 ];
@@ -186,10 +224,6 @@ const projects = [
       "This is a web app that can be used for editing photos. This app contains some basics photo editing feature.",
     tags: [
       {
-        name: "React",
-        color: "react-text-gradient",
-      },
-      {
         name: "HTML5",
         color: "html5-text-gradient",
       },
@@ -219,7 +253,7 @@ const projects = [
         color: "tailwindcss-text-gradient",
       },
       {
-        name: "restapi",
+        name: "RESTful API",
         color: "restapi-text-gradient",
       },
     ],
@@ -286,33 +320,25 @@ const projects = [
       "This site is a site where you can search for a list of photos that contain your photo. This involved facial recognition algorithms and some development of React, TypeScript, Tailwind CSS, and Javascript. The default is image recognition.",
     tags: [
       {
-        name: "React",
-        color: "react-text-gradient",
-      },
-      {
-        name: "Typescript",
-        color: "typescript-text-gradient",
-      },
-      {
-        name: "Tailwind css",
-        color: "tailwindcss-text-gradient",
+        name: "PHP",
+        color: "php-text-gradient",
       },
       {
         name: "Django",
         color: "django-text-gradient",
       },
       {
-        name: "OpenAI",
+        name: "Amazon",
         color: "openai-text-gradient",
       },
     ],
     image: facial,
-    source_code_link: "https://www.facel.search.com/",
+    source_code_link: "https://www.fotografoguayaquil.com/galeria-deportes/galeria.php?id=71",
   },
   {
     name: "Lemoon Site",
     description:
-      "Our website is our country site for statistical, advertising and functional purposes. This homepage was created using modern languages and frameworks, including React. In particular, we designed the homepage using three modules to create a very unique website.",
+      "This is a site for statistical, advertising and functional purposes. This homepage was created using modern languages and frameworks, including React. In particular, we designed the homepage using three modules to create a very unique website.",
     tags: [
       {
         name: "React",
@@ -341,6 +367,131 @@ const projects = [
     ],
     image: lemoon,
     source_code_link: "https://lemoon-web.pl",
+  },
+  {
+    name: "Azbit",
+    description:
+      "Azbit is a new-generation exchange offering the most popular services on the market. Margin trading, loans secured by cryptocurrencies.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "next-text-gradient",
+      },
+      {
+        name: "Firebase.js",
+        color: "firebase-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "typescript-text-gradient",
+      },
+      {
+        name: "Websockets",
+        color: "websockets-text-gradient",
+      },
+      {
+        name: "GraphQL",
+        color: "graphql-text-gradient",
+      },
+    ],
+    image: azbit,
+    source_code_link: "https://azbit.com",
+  },
+  {
+    name: "DSAeditor",
+    description:
+      "React Editor is an innovative web-based photo editing platform designed to streamline and enhance the photo editing process for both amateur and professional users.",
+    tags: [
+      {
+        name: "React",
+        color: "react-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "javascript-text-gradient",
+      },
+    ],
+    image: dsaeditor,
+    source_code_link: "https://reacteditor.digitalsigns.ai",
+  },
+  {
+    name: "Form Builder",
+    description:
+      "This application is a drag & drop form builder built in React and bundled with Webpack. It allows you to create multi-step forms by adding containers, with each container representing a new step.",
+    tags: [
+      {
+        name: "React",
+        color: "react-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "typescript-text-gradient",
+      },
+      {
+        name: "Webpack",
+        color: "webpack-text-gradient",
+      },
+    ],
+    image: formbuilder,
+    source_code_link: "https://release.d2xczvacbbtxrp.amplifyapp.com",
+  },
+  {
+    name: "ReUp",
+    description:
+      "ReUplive stands out as a unique eCommerce venture, integrating cutting-edge features to enhance user engagement and shopping experiences.",
+    tags: [
+      {
+        name: "React",
+        color: "react-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "next-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "typescript-text-gradient",
+      },
+      {
+        name: "Tailwind css",
+        color: "tailwindcss-text-gradient",
+      },
+      {
+        name: "RESTful API",
+        color: "restapi-text-gradient",
+      },
+    ],
+    image: reup,
+    source_code_link: "https://staging.reup.live",
+  },
+  {
+    name: "Workforce Chat",
+    description:
+      "The app is basically Chat GPT app with a bit of a twist.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "next-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "typescript-text-gradient",
+      },
+      {
+        name: "Tailwind css",
+        color: "tailwindcss-text-gradient",
+      },
+      {
+        name: "Supabase",
+        color: "supabase-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "stripe-text-gradient",
+      },
+    ],
+    image: aichat,
+    source_code_link: "https://ac-ai-chat.vercel.app",
   },
 ];
 
